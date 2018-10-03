@@ -12,3 +12,5 @@ The idea : make pairs of developers, one write a test then the second write code
 4. The project is available on http://localhost:8085
 
 ## Run tests
+
+Run tests with : `vendor/bin/phpunit test/RomanNumeralTest.php --color`
