@@ -18,6 +18,6 @@ class RomanNumeralTest extends \PHPUnit_Framework_TestCase
     
     public function testToRomanNumeralWillReturnAString()
     {
-        $this->assertEquals("number: 1", $this->romanNumeralInstance->toRomanNumeral(1));
+        $this->assertEquals("I", $this->romanNumeralInstance->toRomanNumeral(1));
     }
 }

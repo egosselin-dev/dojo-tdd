@@ -6,6 +6,8 @@ class RomanNumeral
 {
     public function toRomanNumeral(int $number) : string
     {
-        return "number: ".$number;
+        if ($number == 1) {
+            return 'I';
+        }
     }
 }
